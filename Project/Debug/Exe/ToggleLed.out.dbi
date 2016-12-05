@@ -1,0 +1,24 @@
+[Device]
+Name=STM32F107RCT6
+[ARMSigDrv options]
+CXS=0
+[Application]
+CSX=0
+HighBankAddr=400000
+BootMode=0
+Format=ELF
+CodeOffset=0x0
+DataOffset=0x0
+DebugTool=RLINK_CORTEX
+LoaderTool=ARM
+Target=ARM
+ApplicationPath=C:\Users\bruno montanari\Desktop\projetos\stm32\STLink\Project\Debug\Exe\ToggleLed.out
+[Debug]
+Explore=No
+Startup=1
+StartupSymb=main
+ToolName=RLINK_CORTEX
+[SIM-ARM]
+Crystal=8.000
+[General]
+FreqXTal=8.000

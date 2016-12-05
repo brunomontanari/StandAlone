@@ -1,0 +1,25 @@
+
+<ApplicationDebug Header="ToggleLed.out" Extern=".\ToggleLed.out.rapp" Path=".\ToggleLed.out.rapp" OutputFile="" sate="2" >
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationDebug" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ARM" />
+							
+				</Section>
+					
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F107RCT6" />
+							
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\GNU.config" Removable="1" />
+							
+				</Section>
+					
+			</Set>
+		</Config>
+	</Options>
+</ApplicationDebug>

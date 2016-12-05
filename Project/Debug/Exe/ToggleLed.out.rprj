@@ -1,0 +1,4 @@
+
+<Project Header="Project 'ToggleLed.out'" Path=".\ToggleLed.out.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="ToggleLed.out" >
+	<ApplicationDebug Header="ToggleLed.out" Extern=".\ToggleLed.out.rapp" Path=".\ToggleLed.out.rapp" OutputFile="" sate="2" />
+</Project>
