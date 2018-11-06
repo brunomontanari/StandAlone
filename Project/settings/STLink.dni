@@ -9,7 +9,7 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=456783063
+Checksum=-1017657081
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
@@ -20,7 +20,7 @@ MixedMode=1
 [SWOTraceHWSettings]
 OverrideDefaultClocks=0
 CpuClock=72000000
-ClockAutoDetect=1
+ClockAutoDetect=0
 ClockWanted=2000000
 JtagSpeed=2000000
 Prescaler=36
@@ -34,16 +34,8 @@ ITMportsEnable=0
 ITMportsTermIO=0
 ITMportsLogFile=0
 ITMlogFile=$PROJ_DIR$\ITM.log
-[stlink]
-stlinkserialNo=2798FD0D
-stlinkfoundProbes=
 [CodeCoverage]
 Enabled=_ 0
-[StLinkDriver]
-CStepIntDis=_ 0
-stlinkserialNo=67161833
-stlinkfoundProbes=67161833:FFFFFFFF:
-LeaveTargetRunning=_ 0
 [Interrupts]
 Enabled=1
 [MemConfig]
@@ -52,23 +44,24 @@ Manual=0
 Ddf=1
 TypeViol=0
 Stop=1
-[Trace1]
-Enabled=0
-ShowSource=1
 [Simulator]
 Freq=10000000
 MultiCoreRunAll=1
+[stlink]
+stlinkserialNo=FB894DB1
+stlinkfoundProbes=
 [array_types]
 Fmt0=u8[10]	4	0
 Fmt1=u8[11]	4	0
 Fmt2=uint8[10]	4	0
 Fmt3=uint8[11]	4	0
 Fmt4=uint8[129]	4	0
+Fmt5=unsigned char[1000]	3	0
 [watch_formats]
 Fmt0={W}0:TxTeste[0]	4	0
 Fmt1={W}0:option_byte	4	0
-Fmt2={W}42:SWIM_Estado	3	0
-Fmt3={W}42:addr	4	0
+Fmt2={W}1:addr	4	0
+Fmt3={W}42:SWIM_Estado	3	0
 Fmt4={W}42:iapsr	1	0
 [Trace2]
 Enabled=0
@@ -88,21 +81,6 @@ GraphEnabled=0
 ShowTimeLog=1
 SumEnabled=0
 ShowTimeSum=1
-[EventLog]
-Title_0=Ch3
-Symbol_0=0 4 1
-Title_1=Ch2
-Symbol_1=0 4 1
-Title_2=Ch1
-Symbol_2=0 4 1
-Title_3=Ch0
-Symbol_3=0 4 1
-LogEnabled=0
-GraphEnabled=0
-ShowTimeLog=1
-SumEnabled=0
-ShowTimeSum=1
-SumSortOrder=0
 [InterruptLog]
 LogEnabled=0
 GraphEnabled=0
@@ -130,12 +108,30 @@ ShowTiming=1
 [Disassemble mode]
 mode=0
 [Breakpoints2]
-Bp0=_ 1 "EMUL_CODE" "{$PROJ_DIR$\main.c}.592.7" 0 0 1 "" 0 "" 0
-Bp1=_ 1 "EMUL_CODE" "{$PROJ_DIR$\main.c}.549.7" 0 0 1 "" 0 "" 0
-Bp2=_ 1 "EMUL_CODE" "{$PROJ_DIR$\main.c}.564.11" 0 0 1 "" 0 "" 0
-Bp3=_ 0 "EMUL_CODE" "{$PROJ_DIR$\main.c}.676.7" 0 0 1 "" 0 "" 0
-Bp4=_ 1 "EMUL_CODE" "{$PROJ_DIR$\main.c}.484.9" 0 0 1 "" 0 "" 0
-Count=5
-[Aliases]
 Count=0
+[Aliases]
+A0=_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\1 - MCU\StandAlone\StandAlone_OLD\StandAlone\Project\User\gpio.c" ""
+A1=_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\1 - MCU\StandAlone\StandAlone_OLD\StandAlone\Project\User\stm32f10x_it.c" ""
+A2=_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar\startup_stm32f10x_md.s" ""
+A3=_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c" ""
+A4=_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" ""
+A5=_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Project\Swim\syncsw.c" ""
+A6=_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Project\User\gpio.c" ""
+A7=_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Project\User\stm32f10x_it.c" ""
+A8=_ "C:\Users\engenharia\Documents\Diego Moreno\Projetos\STM32F4\Projects\StandAlone\Testes\StandAlone\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c" ""
+A9=_ "C:\Users\engenharia\Documents\Diego Moreno\Projetos\STM32F4\Projects\StandAlone\Testes\StandAlone\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" ""
+A10=_ "C:\Users\engenharia\Documents\Diego Moreno\Projetos\STM32F4\Projects\StandAlone\Testes\StandAlone\Project\Swim\gpio.c" ""
+A11=_ "C:\Users\engenharia\Documents\Diego Moreno\Projetos\STM32F4\Projects\StandAlone\Testes\StandAlone\Project\main.c" ""
+A12=_ "C:\Users\karimex\Documents\Diego Moreno\Clientes\UPSAI\StandAlone\Project\main.c" ""
+A13=_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c" ""
+A14=_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" ""
+A15=_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" ""
+A16=_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" ""
+A17=_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\Project\Swim\syncsw.c" ""
+A18=_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Project\Swim\SWIM.c" ""
+A19=_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Project\Swim\auxiliar.c" ""
+A20=_ "C:\lixo\Programador_ST_Peccinin\StandAlone\StandAlone\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar\startup_stm32f10x_md.s" ""
+A21=_ "C:\lixo\Programador_ST_Peccinin\StandAlone\StandAlone\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c" ""
+A22=_ "C:\lixo\Programador_ST_Peccinin\StandAlone\StandAlone\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" ""
+Count=23
 SuppressDialog=0

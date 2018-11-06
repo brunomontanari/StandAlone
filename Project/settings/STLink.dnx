@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <DebugChecksum>
+        <Checksum>-1017657081</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>0</OverrideDefaultClocks>
+        <CpuClock>72000000</CpuClock>
+        <ClockAutoDetect>0</ClockAutoDetect>
+        <ClockWanted>2000000</ClockWanted>
+        <JtagSpeed>2000000</JtagSpeed>
+        <Prescaler>36</Prescaler>
+        <TimeStampPrescIndex>0</TimeStampPrescIndex>
+        <TimeStampPrescData>0</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>0</ITMportsEnable>
+        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
+    </SWOTraceHWSettings>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <Interrupts>
+        <Enabled>1</Enabled>
+    </Interrupts>
+    <MemConfig>
+        <Base>1</Base>
+        <Manual>0</Manual>
+        <Ddf>1</Ddf>
+        <TypeViol>0</TypeViol>
+        <Stop>1</Stop>
+    </MemConfig>
+    <Simulator>
+        <Freq>10000000</Freq>
+        <MultiCoreRunAll>1</MultiCoreRunAll>
+    </Simulator>
+    <stlink>
+        <stlinkserialNo>FB894DB1</stlinkserialNo>
+        <stlinkfoundProbes />
+    </stlink>
+    <array_types>
+        <Fmt0>u8[10]	4	0</Fmt0>
+        <Fmt1>u8[11]	4	0</Fmt1>
+        <Fmt2>uint8[10]	4	0</Fmt2>
+        <Fmt3>uint8[11]	4	0</Fmt3>
+        <Fmt4>uint8[129]	4	0</Fmt4>
+        <Fmt5>unsigned char[1000]	3	0</Fmt5>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}0:TxTeste[0]	4	0</Fmt0>
+        <Fmt1>{W}0:option_byte	4	0</Fmt1>
+        <Fmt2>{W}1:addr	4	0</Fmt2>
+        <Fmt3>{W}42:SWIM_Estado	3	0</Fmt3>
+        <Fmt4>{W}42:iapsr	1	0</Fmt4>
+    </watch_formats>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <PcSampling>0</PcSampling>
+        <InterruptLogs>0</InterruptLogs>
+        <ForcedTimeStamps>0</ForcedTimeStamps>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <Log_file>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </Log_file>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>3</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <Disassemble_mode>
+        <mode>0</mode>
+    </Disassemble_mode>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\1 - MCU\StandAlone\StandAlone_OLD\StandAlone\Project\User\gpio.c" ""</A0>
+        <A1>_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\1 - MCU\StandAlone\StandAlone_OLD\StandAlone\Project\User\stm32f10x_it.c" ""</A1>
+        <A2>_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar\startup_stm32f10x_md.s" ""</A2>
+        <A3>_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c" ""</A3>
+        <A4>_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" ""</A4>
+        <A5>_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Project\Swim\syncsw.c" ""</A5>
+        <A6>_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Project\User\gpio.c" ""</A6>
+        <A7>_ "C:\Users\engenharia\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Project\User\stm32f10x_it.c" ""</A7>
+        <A8>_ "C:\Users\engenharia\Documents\Diego Moreno\Projetos\STM32F4\Projects\StandAlone\Testes\StandAlone\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c" ""</A8>
+        <A9>_ "C:\Users\engenharia\Documents\Diego Moreno\Projetos\STM32F4\Projects\StandAlone\Testes\StandAlone\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" ""</A9>
+        <A10>_ "C:\Users\engenharia\Documents\Diego Moreno\Projetos\STM32F4\Projects\StandAlone\Testes\StandAlone\Project\Swim\gpio.c" ""</A10>
+        <A11>_ "C:\Users\engenharia\Documents\Diego Moreno\Projetos\STM32F4\Projects\StandAlone\Testes\StandAlone\Project\main.c" ""</A11>
+        <A12>_ "C:\Users\karimex\Documents\Diego Moreno\Clientes\UPSAI\StandAlone\Project\main.c" ""</A12>
+        <A13>_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c" ""</A13>
+        <A14>_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" ""</A14>
+        <A15>_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" ""</A15>
+        <A16>_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" ""</A16>
+        <A17>_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\Project\Swim\syncsw.c" ""</A17>
+        <A18>_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Project\Swim\SWIM.c" ""</A18>
+        <A19>_ "C:\Users\karimex\Documents\Diego Moreno\Fornecedores\ST\StandAlone\StandAlone\Project\Swim\auxiliar.c" ""</A19>
+        <A20>_ "C:\lixo\Programador_ST_Peccinin\StandAlone\StandAlone\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar\startup_stm32f10x_md.s" ""</A20>
+        <A21>_ "C:\lixo\Programador_ST_Peccinin\StandAlone\StandAlone\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c" ""</A21>
+        <A22>_ "C:\lixo\Programador_ST_Peccinin\StandAlone\StandAlone\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" ""</A22>
+        <Count>23</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+    <StLinkDriver>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </StLinkDriver>
+</settings>
