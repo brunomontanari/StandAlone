@@ -1076,6 +1076,7 @@ static void SetSysClockTo72(void)
   else
   { /* If HSE fails to start-up, the application will have wrong clock 
          configuration. User can add here some code to deal with this error */
+    
   }
 }
 #endif
